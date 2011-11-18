@@ -1,0 +1,29 @@
+[
+    {"source": "app/assistants/app-assistant.js"},
+    {"source": "app/assistants/main-stage-assistant.js"},
+	{"source": "app/model/web2sms.js"},
+    {
+        "scenes": "login",
+        "source": "app/assistants/login-assistant.js"
+    },
+    {
+        "scenes": "sendsms",
+        "source": "app/assistants/sendsms-assistant.js"
+    },
+    {
+        "scenes": "history",
+        "source": "app/assistants/history-assistant.js"
+    },
+    {
+        "scenes": "view-sent",
+        "source": "app/assistants/view-sent-assistant.js"
+    },
+    {
+        "scenes": "prefs",
+        "source": "app/assistants/prefs-assistant.js"
+    },
+    {
+        "scenes": "help",
+        "source": "app/assistants/help-assistant.js"
+    }
+]

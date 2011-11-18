@@ -1,0 +1,6 @@
+WebSMS-CZ is an application for WebOS which allows you to send SMS messages via the T-Mobile Czech website.
+Messages to the T-Mobile CZ network are currently free. Sent messages are stored in outbox for later use.
+
+You can send 1 anonymous SMS to T-Mobile network without registration, but you have to wait 30 seconds before sending the next message.
+If you have a T-Mobile phone number and a valid t-mobile.cz login, you can send messages up to 765 chars with your sender number and without any captcha.
+Fees to other desinations may apply, which are charged to your plan. Check t-mobile.cz for details.

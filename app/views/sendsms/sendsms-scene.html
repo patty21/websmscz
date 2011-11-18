@@ -1,0 +1,54 @@
+<div id="background"></div>
+<div class="palm-list">
+	<div class="palm-row first">
+		<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+			<div class="title">
+				<div class="label left" style="margin-right: 10px;">
+					To:
+				</div>
+				<div class="label picker" id="pickContactButton">
+				</div>
+				<div id="toField" x-mojo-element="TextField">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="palm-group unlabeled">
+	<div class="palm-list">
+		<div class="palm-row first">
+			<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+				<div class="title">
+					<div id="messageText" x-mojo-element="TextField">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="palm-row last bottom-row">
+			<div class="palm-row-wrapper">
+				<div class="bottom-row-text">
+					<span id="remainingChars">765</span> Chars remaining
+					<span class="numSmsLabel"><span id="numSms">1</span> SMS</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="op" class="palm-group unlabeled" style="display:none">
+	<div class="palm-list">
+		<div class="palm-row first" style="text-align:center;">
+			<img id="captcha">
+		</div>
+		<div class="palm-row last" style="text-align:center;">
+			<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+				<div class="title">
+
+					<div id="captchatext" x-mojo-element="TextField"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="sendButton" x-mojo-element="Button"></div>

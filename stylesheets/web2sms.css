@@ -1,0 +1,77 @@
+#background {
+/*	background-image: url(../images/bg480.png);
+	background-position: center center;
+	position: fixed;      
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;    
+	z-index: -100;
+	background-repeat: no-repeat; */
+}
+
+.ad {
+	position: fixed;
+	bottom: 2px;
+	height: 50px;
+}
+
+.commandBarSpacer {
+	bottom: 50px !important;
+}
+
+.picker {
+	position: relative;
+	right: -3px;
+	top: 5px;
+	width: 38px;
+	height: 40px;
+	background: url(../images/address-book.png) top center no-repeat;
+}
+
+.picker:active {
+	background-position: center center;
+}
+
+.focused.picker {
+	background-position: bottom center;
+}
+
+#messageText {
+	min-height: 185px;
+}
+
+textarea, .multiline-text {
+	/*color: white !important;*/
+	/*min-height: 180px;*/
+}
+
+.bottom-row {
+	min-height: 0;
+	height: 25px;
+}
+
+.bottom-row-text {
+	font-size: 14px;
+/*	color: white;*/
+	text-shadow: #646454 0px 1px 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+}
+
+.numSmsLabel {
+	float: right;
+}
+
+.sendsms {
+	background-image: url(../images/menu-icon-newchat.png);
+}
+
+.spacer {
+	height: 50px;
+}
+
+.rowname {
+	margin-right: 10px !important;
+}
