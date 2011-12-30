@@ -1,13 +1,14 @@
 {
 	"id": "to.yz.websmscz",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"vendor": "Patty21",
 	"type": "web",
 	"main": "index.html",
 	"title": "WebSMS-CZ",
-	"icon": "icon.png",
+	"icon": "icon64x64.png",
 	"noWindow": true,
 	"smallicon": "icon32x32.png",
+	"miniicon": "icon32x32.png",
 	"uiRevision": 1,
 
 	"copyright": "This application is not provided by T-Mobile CZ. Only SMS to the T-Mobile CZ cellular network are currently free, princings for other desinations you can find on the T-Mobile CZ website. <br/>&copy; Copyright 2011 Patty21",
