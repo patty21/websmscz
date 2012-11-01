@@ -24,14 +24,14 @@ var Web2Sms = Class.create({
 	//			Mojo.Log.error(html.substr(i,i+800));
 		//	}
 
-			var m = html.match(/Jste p.ihl..en jako:/);
+			var m = html.match(/Odhlásit/);
 			if (m)
 				m = 50;
 			else
 				m = null;
 			if (m != null) {
 			    try {
-				var start = html.indexOf("<form method=\"post\" accept");
+				var start = html.indexOf("<form action=\"#\" method=\"post\""); // begin of sms form
 				var end = html.indexOf("</form>", start);
 				var s = html.substring(start, end);
 				
@@ -77,7 +77,7 @@ var Web2Sms = Class.create({
 		//	}
 
  		    try {
-				var start = html.indexOf("<form method=\"post\" accept");
+				var start = html.indexOf("<form action=\"#\" method=\"post\""); // begin of sms form
 				var end = html.indexOf("</form>", start);
 				var s = html.substring(start, end);
 				
